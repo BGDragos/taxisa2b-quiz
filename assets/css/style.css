@@ -85,7 +85,6 @@ h2 {
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
     padding: 20px;
     cursor: pointer;
-    float: left;
 }
 
 .guess-option:hover{
@@ -118,4 +117,34 @@ hr{
     border-top: 1px solid hsl(61, 95%, 49%);
     width: 100%;
     margin: 5px 0;
+}
+
+footer {
+    height: 110px;
+    font-size: 150%;
+}
+
+.taxiNetwork {
+    text-align: center;
+}
+
+footer h3 {
+    text-align: center;
+    font-family: 'Roboto Serif', sans-serif;
+    margin: 50px auto;
+    margin: 1rem;
+}
+
+.taxiNetwork a {
+    font-size: 150%;
+    padding: 5%;
+    color: yellow;
+    margin: 40px auto;
+}
+
+.taxiNetwork a:hover {
+    font-size: 150%;
+    padding: 5%;
+    color: white;
+    margin: 40px auto;
 }
