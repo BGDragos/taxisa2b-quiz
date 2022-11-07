@@ -27,3 +27,29 @@ h2 {
     margin: 2rem;
     color: yellow;
 }
+
+/*Game area*/
+
+#tour{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+#check {
+    color: yellow;
+    text-align: center;
+    margin: 50px;
+}
+
+#check-dublin {
+    display: flex;
+    background-color: white;
+    height: 70vh;
+    width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    padding: 40px;
+}
