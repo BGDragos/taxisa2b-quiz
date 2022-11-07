@@ -53,3 +53,69 @@ h2 {
     border-radius: 10px;
     padding: 40px;
 }
+
+.question {
+    text-align: center;
+
+}
+
+.name{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+
+.city{
+    width: 50%;
+    max-height: 70vh;
+}
+
+.guess-option {
+    float: left;
+    background-color: #00B8E6;
+    color: white;
+    border:double;
+    padding: 5px;
+    font-size: 20px;
+    display: block;
+    margin: 20px;
+    margin-bottom: 5px;
+    min-width: 300px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.guess-option:hover{
+    background-color: hsl(72, 95%, 49%);
+
+}
+
+.results {
+    margin: 5px auto;
+    width: 50%;
+    font-size: 1.2rem;
+}
+
+#marked {
+    color: green;
+    font-weight: bold;
+}
+
+#un-marked {
+    color: red;
+    font-weight: bold;
+}
+
+.answered {
+    display: inline-block;
+    padding: 40px;
+}
+
+hr{
+    border-top: 1px solid hsl(61, 95%, 49%);
+    width: 100%;
+    margin: 5px 0;
+}
