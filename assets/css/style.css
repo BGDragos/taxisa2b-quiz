@@ -38,7 +38,7 @@ h2 {
 }
 
 #check {
-    color: yellow;
+    color: white;
     text-align: center;
     margin: 50px;
 }
@@ -46,12 +46,13 @@ h2 {
 #check-dublin {
     display: flex;
     background-color: white;
-    height: 70vh;
-    width: 70vw;
+    height: 60vh;
+    width: 60vw;
     margin: auto;
     margin-top: 50px;
     border-radius: 10px;
-    padding: 40px;
+    padding: 20px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .question {
@@ -68,14 +69,13 @@ h2 {
 
 .city{
     width: 50%;
-    max-height: 70vh;
+    max-height: 52vh;
 }
 
 .guess-option {
-    float: left;
     background-color: #00B8E6;
     color: white;
-    border:double;
+    border: dashed;
     padding: 5px;
     font-size: 20px;
     display: block;
@@ -83,7 +83,7 @@ h2 {
     margin-bottom: 5px;
     min-width: 300px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
-    padding: 20px;
+    padding: 15px;
     cursor: pointer;
 }
 
@@ -94,7 +94,7 @@ h2 {
 
 .results {
     margin: 5px auto;
-    width: 50%;
+    width: 60%;
     font-size: 1.2rem;
 }
 
@@ -118,6 +118,8 @@ hr{
     width: 100%;
     margin: 5px 0;
 }
+
+/* Footer section */
 
 footer {
     height: 110px;
@@ -147,4 +149,77 @@ footer h3 {
     padding: 5%;
     color: white;
     margin: 40px auto;
+}
+
+/*Media queries*/
+
+/*For larger to medium screen size 1200px*/
+@media screen and (max-width: 1200px) {
+    
+    #dublin-image-center {
+        width: 100%;
+     }
+
+    .guess-option {
+     background-color: #00B8E6;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+    min-width: 100px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    }
+}
+
+/*for medium screen size from 950px wide and down*/
+
+@media screen and (max-width: 950px) {
+    
+    .guess-option {
+     background-color: #00B8E6;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+    min-width: 120px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    }
+
+}
+   
+
+/* media for screen max 500px */
+
+@media screen and (max-width: 500px){
+
+    #tour {
+        width: 60%;
+        height: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    
+    #dublin-image-center {
+        width: fit-content;
+        height: 80px;
+     }
+    
+    
+    .guess-option {
+    background-color: #00B8E6;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+    min-width: 120px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    }
+
 }
