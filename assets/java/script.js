@@ -53,10 +53,10 @@ let locationKnow = [
   },
 ];
 
+
 // Function to give name to each button using names from locationKnow
 
 function bookDublin(name) {
-
   let div = document.getElementById("div-location");
   div.innerHTML += `
     <button class="guess-option" onclick="clickIt('${name}')">
@@ -64,13 +64,11 @@ function bookDublin(name) {
     </button>`;
 }
 
-// Using random questions to game area each time you refreshing main page
-let i = Math.floor(Math.random() * 9)+1;
+let indice = 0;
 let road = 0;
 
-
   function whichImg() {
-    let city = locationKnow[i];
+    let city = locationKnow[indice];
     let image = document.getElementById("dublin-image-center");
     image.setAttribute('src', city.image);
 
@@ -79,7 +77,7 @@ let road = 0;
   
     let divLocation = document.getElementById("div-location");
     divLocation.innerHTML = "";
-  
+  //buttons name
     city.location.forEach((option) => {
         bookDublin(option);
     });
@@ -117,4 +115,20 @@ let road = 0;
         document.getElementById("un-marked").innerText = ++yourScor;
            
     }
-    
+
+    // Function to call each function and validate each option from buttons
+
+    function clickIt(option) {
+      let city = locationKnow[indice];
+      let goodAnswer = city.name === option;
+      if (goodAnswer) {
+        ++indice;
+       ++road;
+          correct();
+          addGood();
+          whichImg();
+      } else {
+          wrong();
+          addWrong();
+      }
+  }
