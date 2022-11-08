@@ -49,10 +49,10 @@ h2 {
     height: 60vh;
     width: 60vw;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 60px;
+    margin-bottom: 50px;
     border-radius: 10px;
-    padding: 20px;
-    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+    padding: 60px;
 }
 
 .question {
@@ -69,13 +69,13 @@ h2 {
 
 .city{
     width: 50%;
-    max-height: 52vh;
+    max-height: 60vh;
 }
 
 .guess-option {
     background-color: #00B8E6;
     color: white;
-    border: dashed;
+    border: double;
     padding: 5px;
     font-size: 20px;
     display: block;
@@ -155,71 +155,101 @@ footer h3 {
 
 /*For larger to medium screen size 1200px*/
 @media screen and (max-width: 1200px) {
-    
-    #dublin-image-center {
-        width: 100%;
-     }
 
+    #check-dublin {
+        display: flex;
+        background-color: white;
+        height: 60vh;
+        width: 60vw;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+    }
+    
     .guess-option {
-     background-color: #00B8E6;
-    color: white;
-    border: none;
-    padding: 5px;
-    font-size: 20px;
-    margin: 5px;
-    min-width: 100px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
+        background-color: #00B8E6;
+        color: white;
+        border: double;
+        padding: 5px;
+        font-size: 20px;
+        display: block;
+        margin: 20px;
+        margin-bottom: 5px;
+        min-width: 300px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+        padding: 15px;
+        cursor: pointer;
     }
 }
 
 /*for medium screen size from 950px wide and down*/
 
 @media screen and (max-width: 950px) {
+
+    #check-dublin {
+        display: flex;
+        background-color: white;
+        height: 60vh;
+        width: 60vw;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+    }
     
     .guess-option {
-     background-color: #00B8E6;
-    color: white;
-    border: none;
-    padding: 5px;
-    font-size: 20px;
-    margin: 5px;
-    min-width: 120px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    }
+            background-color: #00B8E6;
+            color: white;
+            border: double;
+            padding: 15px;
+            cursor: pointer;
+            
+        }
 
 }
    
 
-/* media for screen max 500px */
+/* media for screen max 600px */
+@media screen and (max-width: 600px){
 
-@media screen and (max-width: 500px){
-
-    #tour {
-        width: 60%;
-        height: 500px;
-        margin: 0 auto;
-        text-align: center;
-    }
-    
-    
-    #dublin-image-center {
-        width: fit-content;
-        height: 80px;
-     }
-    
-    
-    .guess-option {
-    background-color: #00B8E6;
-    color: white;
-    border: none;
-    padding: 5px;
-    font-size: 20px;
-    margin: 5px;
-    min-width: 120px;
-    box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-    }
-
-}
+    #check-dublin {
+       display: flex;
+       background-color: white;
+       height: 50vh;
+       width: 50vw;
+       margin: auto;
+       margin-top: 60px;
+       margin-bottom: 50px;
+       border-radius: 10px;
+       padding: 60px;
+   }
+   
+   .name{
+       width: 50%;
+       align-items: center;
+       display: grid;
+       float: left;
+   }
+   
+   .city{
+       width: 60%;
+       max-height: 100vh;
+   }
+   
+   .guess-option {
+       background-color: #00B8E6;
+       color: white;
+       border: double;
+       padding: 5px;
+       font-size: 20px;
+       display: block;
+       margin: 20px;
+       margin-bottom: 5px;
+       min-width: 200px;
+       box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+       cursor: pointer;
+   }
+   }
