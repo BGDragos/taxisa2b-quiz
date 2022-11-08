@@ -101,3 +101,20 @@ let road = 0;
         alert("That's WRONG!")
     
       }
+
+      // Function for increment good/wrong answer after you click it
+
+      function addGood() {
+
+        let yourScor = parseInt(document.getElementById("marked").innerText);
+        document.getElementById("marked").innerText = ++yourScor;
+        
+    }
+    
+    function addWrong() {
+    
+        let yourScor = parseInt(document.getElementById("un-marked").innerText);
+        document.getElementById("un-marked").innerText = ++yourScor;
+           
+    }
+    
