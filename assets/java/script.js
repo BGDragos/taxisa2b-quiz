@@ -86,3 +86,18 @@ let road = 0;
   }
 
   whichImg();
+
+    // Function for change the color after good/wrong answers 
+
+    let gameArea = document.getElementById("check-dublin");
+
+    function correct(){
+        gameArea.style.backgroundColor = "rgba(96, 255, 199, 1)";
+        alert("That's RIGHT!")
+      }
+    
+    function wrong(){
+        gameArea.style.backgroundColor = "rgba(255, 166, 164, 1)";
+        alert("That's WRONG!")
+    
+      }
