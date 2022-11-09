@@ -9,7 +9,7 @@
 Established in 2018 by me owner and registered person at CRO / 654230, person who developed this small Quiz just for fun, purpose of this game is to involve our clients in exploring much better the trip.
 I, owner of TaxisA2B shared accuarte pictures snipped from <b>Google Maps</b>.
 
-![Responsice Mockup]()
+![Responsice Mockup](assets/images/mockup.png)
 
 ## TAXISA2B HOME PAGE 
 
@@ -55,7 +55,7 @@ This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check wi
   - All the errors occurred during the tests has been resolved using Developer Tools.
   - For my experience I am happy with the performance offered to this small quiz page.
 
-![LightHouse]()
+![LightHouse](assets/images/lighthouse.png)
 
 ## Features Left to Implement
 
@@ -104,28 +104,28 @@ This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check wi
 ### <i> Validator Testing</i>
 
 - HTML
-  - I could found minor errors for mistyping or adding to many open tags or forgetting to close tags [W3C validator]()
+  - I could found minor errors for mistyping or adding to many open tags or forgetting to close tags [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbgdragos.github.io%2Ftaxisa2b-quiz%2F)
 
   - After careful look I fixed all of them and now performances are above 90%.
 
-  ![W3C HTML]()
+  ![W3C HTML](assets/images/w3chtml.png)
 
 - CSS
-  - I could found minor errors for mistyping or adding to many open tags, double writing the code for some of <b>id</b> , <b>class</b> or forgetting to close tags [(Jigsaw) validator]()
+  - I could found minor errors for mistyping or adding to many open tags, double writing the code for some of <b>id</b> , <b>class</b> or forgetting to close tags [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbgdragos.github.io%2Ftaxisa2b-quiz%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en))
 
   - After careful look I fixed all of them and now the CSS file is not presenting any error.
 
-  ![W3C CSS]()
+  ![W3C CSS](assets/images/w3ccss.png)
 
 - JavaScript
   - I could found minor errors for forgeting to call some of the functions or mistyping <b>"; - colons"</b> [(JSHint) tool](https://jshint.com/)
 
-  - After careful look I fixed almost all of them, one function <i><b>clickIt()</b></i> is not used/called because that's make my quiz running badly and I don't know how to call silent.
+  - After careful look I fixed almost all of them, one function <i><b>clickIt();</b></i> is not used/called because that's make my quiz running badly and I don't know how to call silent.
 
 
 ### <i>Unfixed Bugs</i>
 
-- My code using <i>Developer Tool</i> not presenting any error, but after all the function are called and last question is answered and Quiz ending I can see the following: <i><b> Uncaught TypeError: Cannot read properties of undefined (reading 'image') </b></i>
+- My JavaScript code if're running in <i>Developer Tool</i> not presenting any error, but after all the function are called and last question is answered and the Quiz functions ending, I can see the following: <i><b> Uncaught TypeError: Cannot read properties of undefined (reading 'image') </b></i>
  / Some of the notions probably will become easier until the end of the course because <b>Python</b> is quite similar.
   - After careful checking on internet I could see very experienced developers with same error as well.
   - That's why I feel confident that's not major.
