@@ -1,10 +1,10 @@
 ![TaxisA2B](/assets/images/taxisa2b.jpg)
 
-# TaxisA2B | Transportation
+# TaxisA2B Quiz
 
 ![FavIcon](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/favIconT.png?raw=true)
 - Our logo is clearly for anyone who searching for taxi service, doesn't matter how many tabs are opened in any browser our favicon it's still lighting.
-- For this favicon we used our logo and mixed with some research on [W3Schools](https://www.w3schools.com/) I made TAXISA2B looking great.
+- For this favicon we used our logo and mixed with some research on [W3Schools](https://www.w3schools.com/), I made <b>TAXISA2B QUIZ</b> looking great.
 
 Established in 2018 by me owner and registered person at CRO / 654230, person who developed this small Quiz just for fun, purpose of this game is to involve our clients in exploring much better the trip.
 I, owner of TaxisA2B shared accuarte pictures snipped from <b>Google Maps</b>.
@@ -13,37 +13,30 @@ I, owner of TaxisA2B shared accuarte pictures snipped from <b>Google Maps</b>.
 
 ## TAXISA2B HOME PAGE 
 
-This TAXI QUIZ is built just for amusement and for check with our clients if they paid attention to our driver, along the tour.
+This TAXI QUIZ is built just for amusement and for check with our clients if they paid attention to our driver explanations, along the tour.
 
 ### <ins>TaxisA2B Header Includes </ins>
 
-- __Navigation Bar__
+- __Navigation Title__
 
-  - From Left > Right is the title <h1 id="taxi" >TaxisA2B Quiz <i class="fa-sharp fa-solid fa-taxi"></i></h1>  where any user can refresh the game, to try beating his score.
+  - From Left > Right is the title <h1 id="taxi" >TaxisA2B Quiz <i class="fa-sharp fa-solid fa-taxi"></i></h1> Where any user can refresh the game, to try beating his score.
 
   - Top > Left Corner of the page is name of registered company TAXISA2B that showing a small icon snipped from [FontAwesome](https://fontawesome.com/icons)
 
 ![Nav Bar]
 
-### <ins>Presentation of TaxisA2B</ins>
+### <ins>Presentation of TaxisA2B Quiz</ins>
 #### <ins>CHECK YOUR TOUR TRIP</ins>
 
-  - This area is GAME AREA that including some of the pictures with 4 options to answer, those questions are couple of most important attraction in <b>Dublin</b>.
+  - This area is <i>GAME AREA</i> that including some of the pictures with <i>4(four)</i> options to answer, those questions are most important attraction in <b>Dublin</b>.
+  - This quiz area offering 10 questions.
+  - Each answer is changing the color of the <b>Game Area</b>, RED COLOR for wrong and GREEN COLOR for good.
+  - Under the <b>Game Area</b> each user can check the answer, if is good or wrong.
+  - After each answer user can se also see popping up an alert notifying RIGHT or WRONG.
  
 
-![Taxi Presentation](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/taxiGoal.png?raw=true)
+![Taxi Presentation]
 
-
-
-### <ins>Google map address of TaxisA2B</ins>
-
-  - This map shows the location of TaxisA2B, 
-  - This map was taken from [Google-Map-Generator](https://google-map-generator.com/) 
-  - This map was modified using CSS style.
-
-  ![Map](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/googleTaxiMap.png?raw=true)
-
-   
 
 ### <ins>Footer</ins>
 
@@ -51,124 +44,102 @@ This TAXI QUIZ is built just for amusement and for check with our clients if the
 
   - Footer contain large view of links and all the links used for this section are the real one.
 
-  - Footer is exactly the same in any page that you navigate.
+  - Footer is exactly the same in any TAXISA2B page offered by me.
   
-![Footer](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/footerT.png?raw=true)
+![Footer]()
 
-### Home page was teste in LightHouse
-
-  - This page was tested in LightHouse before uploading all the elements. 
-  - All the errors occurred during the tests has been resolved using Developer Tools offered by Google.
-
-![LightHouse](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/indexLighthouse.png?raw=true)
-
-## TAXISA2B BOOKING PAGE
-
-### <ins>Booking TAXISA2B</ins>
-
-  - Booking selection including preferences as:
-    - Type of service,
-    - Time, 
-    - Number of passengers,
-    - Number of luggages
-    - After filling the form each client is contacted by TaxisA2B for confirmig day and price.
-  - Any passenger included in any of those selection, can easily see it and get in touch whit TaxisA2B
-
-![Booking](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/bookingTable.png?raw=true)
-
-### Booking page was teste in LightHouse
+### This Quizz page was tested in LightHouse
 
   - This page was tested in LightHouse before uploading all the elements. 
-  - All the errors occurred during the tests has been resolved using Developer Tools offered by Google.
+  - All the errors occurred during the tests has been resolved using Developer Tools.
+  - For my experience I am happy with the performance offered to this small quiz page.
 
-![LightHouse](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/bookingLighthouse.png?raw=true)
-
-## TAXISA2B ABOUT US PAGE 
-
-### <ins>About Us</ins>
-
-- This section explain the way how we operate, different way of communication.
-- Our program from Monday to Friday and a nice (hover) to see clearly selection.
-- A short explanation why everyone can't book for some certain reason.
-- Depende the screen used to see the page, client can have a look inside of the car through small picture provided.
-- Why our job is so serios and what clients cand expect when they book through the website.
-
-- For checking each option I used "ul" list and using check box snipped from [FontAwesome](https://fontawesome.com/icons)
-
-![Picture-Inside](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/aboutT.png?raw=true)
-
-### ABOUT US page was teste in LightHouse
-
-  - This page was tested in LightHouse before uploading all the elements. 
-  - All the errors occurred during the tests has been resolved using Developer Tools offered by Google.
-
-![LightHouse](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/aboutLightHouse.png?raw=true)
+![LightHouse]()
 
 ## Features Left to Implement
 
-- Testimony for our clients.
-- Review and Rating.
-- Option in Booking page to choose favorit driver.
-- Music that client will like to hear during the trip.
+- Music for wrong or good answers.
+- Button automatically to book tickets after client finish the game.
+- Many selections of the game (hearing short description and after description to appear the buttons).
+- Music that client can choose to hear during the game.
  
 ## Credits
 
-- I started this project in 22/09/2022 it's hard to know exect time until I finish because I started from scratch, I checked "LOVE RUNNING" and "Coders Coffeehouse" presented by our teachers/mentors.
-Today 29/09/2022 I writing this <i>README.md</i> and I am proud with my work.
+- I started this project in 05/11/2022 and I have been working for many hours, maybe is something small not very attractive and for professionals is very basic and easy, but I really like how resonding and I accomplished 90% from what I planned befor starting ideea.
+- I used header and footer snippet from my first project, that project it was also my work, and now I tried to keep the same style, because at the end of the cours, I want an operational <i>Full Project</i> that I planed.
+- I started learning and writing code after I have been enrolled with <b>Code Institute</b> and this is my second project where I spent many hours and is mainly by scratch, of course after research and maybe using similar syntaxes offered by training team along the section.
+- I watched youtube to understand de syntax and I can confirm that still need to return back to Javascript section just to dig deep.
+- Today 09/11/2022 I writing this <i>README.md</i> and I am proud with my work.
 
 ### Content
 
-- I am 100% sure that my work is not accurate but I checked watching again videos presented by mentors and I am going to dig deep to understand more.
+- I am 100% sure that my work is not accurate and can be improved but I checked watching again videos presented by mentors and I am going to dig deep to understand more.
 - I used copy-paste during the project just for snipping some helpful content mentioned below:
+- Copied some of the function from JavaScript content presented by <b>[Code Institute](https://codeinstitute.net/)</b>
 
     - [FontAwesome](https://fontawesome.com/icons)
-    - [Google-Map-Generator](https://google-map-generator.com/)
+    - [Code Institut](https://codeinstitute.net/)
     - [Google Fonts](https://fonts.google.com/)
     - [Am-I-Responsive](https://ui.dev/amiresponsive)
+    - [YouTube](https://www.youtube.com/watch?v=1yS-JV4fWqY)
+    - [TaxisA2B Project](https://bgdragos.github.io/taxisa2b/). This project it was developed by me the owner and I used some of the code from header and footer.
  
  - I've looked after to understand much better the way how code is working using the link below:
  
     - [W3Schools](https://www.w3schools.com/)
+    - [JSHint](https://jshint.com/)
 
-  - I got all the majorities of ideas from [Code Institute](https://codeinstitute.net/) but I applied much more modifications and different meaning.
+  - I got all the majorities of ideas from [Code Institute](https://codeinstitute.net/) but I applied much more modifications and different meanings.
 
 ### Media
 
-  - I found during the coding of this project lots of issues for view in different screen sizes. Now I am happy how everything's looking.
+  - I found during the coding of this project lots of issues for operationality of each picture and  how to make functions from javascript responding to the media that I used.. Now I am happy how everything's looking.
   
-  - All the pictures used in this <i>website</i> are under my ownership.
+  - All the pictures used in this <i>TAXISA2B QUIZ</i> are captured using the basic screenshot while I used <b><i>Google Map View</i></b> 
 
-  - Template for this <i>README.md</i> is [Code Institute](https://codeinstitute.net/) property, I TAXISA2B, I am using only for presentation and I changed the content only for learning purpose.
-  - Text was written by me, person who developed this website no copy-paste taken from different sources.
+  - Template for this <i>README.md</i> is [Code Institute](https://codeinstitute.net/) property, I developer for this project, I am using only for presentation and I changed the content only for learning purpose.
+  - Text was written by me, person who developed this <i>QUIZ</i> no copy-paste taken from different sources.
 
 ### <i> Validator Testing</i>
 
 - HTML
-  - I could found minor errors for mistyping or adding to many open tags or forgetting to close tags [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbgdragos.github.io%2Ftaxisa2b%2Fabout.html)
+  - I could found minor errors for mistyping or adding to many open tags or forgetting to close tags [W3C validator]()
 
-  - After careful look I fixed all of them and now performances are after 90%.
+  - After careful look I fixed all of them and now performances are above 90%.
 
-  ![W3C HTML](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/w3chtml.png?raw=true)
+  ![W3C HTML]()
 
 - CSS
-  - I could found minor errors for mistyping or adding to many open tags or forgetting to close tags [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbgdragos.github.io%2Ftaxisa2b%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - I could found minor errors for mistyping or adding to many open tags, double writing the code for some of <b>id</b> , <b>class</b> or forgetting to close tags [(Jigsaw) validator]()
 
   - After careful look I fixed all of them and now the CSS file is not presenting any error.
 
-  ![W3C CSS](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/w3ccss.png?raw=true)
+  ![W3C CSS]()
+
+  - JavaScript
+  - I could found minor errors for forgeting to call some of the functions or mistyping <b>"; - colons"</b> [(JSHint) tool](https://jshint.com/)
+
+  - After careful look I fixed almost all of them, one function <i><b>clickIt()</b></i> is not used/called because that's make my quiz running badly and I don't know how to call silent.
+
 
 ### <i>Unfixed Bugs</i>
 
-- Couple of issues for smaller screen size, I fixed big majority, Google DevTools asked for some <i>json</i> files and that's new for me.
+- My code using <i>Developer Tool</i> not presenting any error, but after all the function are called and last question is answered and Quiz ending I can see showing the following: <i><b> Uncaught TypeError: Cannot read properties of undefined (reading 'image') </b></i>
  Some of the notions probably will become easier in the next chapters.
+  - After careful checking on internet I could see very experienced developers with same error as well.
+ - My Quiz developed with help from the course offered by <b>Code Institute</b> not presenting any other error and game area running smoothly I believe.
 
 ## Testing
 
-- Using the Lighthouse tests I could see lots of issues for viewing pictures in different resolution
+- Using the Lighthouse offered by browser in DevTool, I fixed viewings in different screen sizes.
 
-- I used <b>DevTools</b> offered by <b>Google</b> I applied all the changes and I wrote everything in <b>Gitpod</b> where is an internal <b>Visual Studio Code</b>
+- Markup Validation Service for HTML
 
-- For applying all the changes in <b>Gitpod</b> and check how website responding, I used the server mentioned by [Code Institute](https://codeinstitute.net/) in online learning process.
+- CSS Validation Service.
+
+- Using JSHint I discoverd some of the mistyping syntax.
+
+- For applying all the changes in <b>Gitpod</b> and check how website responding, I used the server online mentioned by [Code Institute](https://codeinstitute.net/) <i>python3 -m http.server.</i>
 
 ## Deployment
 
