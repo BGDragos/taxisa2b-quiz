@@ -2,30 +2,31 @@
 
 # TaxisA2B Quiz
 
-![FavIcon](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/favIconT.png?raw=true)
+![FavIcon]()
 - Our logo is clearly for anyone who searching for taxi service, doesn't matter how many tabs are opened in any browser our favicon it's still lighting.
 - For this favicon we used our logo and mixed with some research on [W3Schools](https://www.w3schools.com/), I made <b>TAXISA2B QUIZ</b> looking great.
 
 Established in 2018 by me owner and registered person at CRO / 654230, person who developed this small Quiz just for fun, purpose of this game is to involve our clients in exploring much better the trip.
 I, owner of TaxisA2B shared accuarte pictures snipped from <b>Google Maps</b>.
 
-![Responsice Mockup](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/mokup.png?raw=true)
+![Responsice Mockup]()
 
 ## TAXISA2B HOME PAGE 
 
-This TAXI QUIZ is built just for amusement and for check with our clients if they paid attention to our driver explanations, along the tour.
+This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check with our clients if they paid attention to our driver explanations, along the tour.
 
 ### <ins>TaxisA2B Header Includes </ins>
 
-- __Navigation Title__
+- __Navigation | Refresh Title__
 
-  - From Left > Right is the title <h1 id="taxi" >TaxisA2B Quiz <i class="fa-sharp fa-solid fa-taxi"></i></h1> Where any user can refresh the game, to try beating his score.
+  - From Left > Right is the title <h1>TaxisA2B Quiz</h1> Where any user can refresh the game, to try beating his score.
 
   - Top > Left Corner of the page is name of registered company TAXISA2B that showing a small icon snipped from [FontAwesome](https://fontawesome.com/icons)
 
 ![Nav Bar]
 
 ### <ins>Presentation of TaxisA2B Quiz</ins>
+
 #### <ins>CHECK YOUR TOUR TRIP</ins>
 
   - This area is <i>GAME AREA</i> that including some of the pictures with <i>4(four)</i> options to answer, those questions are most important attraction in <b>Dublin</b>.
@@ -80,7 +81,7 @@ This TAXI QUIZ is built just for amusement and for check with our clients if the
     - [FontAwesome](https://fontawesome.com/icons)
     - [Code Institut](https://codeinstitute.net/)
     - [Google Fonts](https://fonts.google.com/)
-    - [Am-I-Responsive](https://ui.dev/amiresponsive)
+    - [Am I Responsive](https://ui.dev/amiresponsive)
     - [YouTube](https://www.youtube.com/watch?v=1yS-JV4fWqY)
     - [TaxisA2B Project](https://bgdragos.github.io/taxisa2b/). This project it was developed by me the owner and I used some of the code from header and footer.
  
@@ -89,11 +90,11 @@ This TAXI QUIZ is built just for amusement and for check with our clients if the
     - [W3Schools](https://www.w3schools.com/)
     - [JSHint](https://jshint.com/)
 
-  - I got all the majorities of ideas from [Code Institute](https://codeinstitute.net/) but I applied much more modifications and different meanings.
+  - I got all the majorities of ideas from [Code Institute](https://codeinstitute.net/) and <b><i>W3Schools</i></b> but I applied much more modifications and different meanings.
 
 ### Media
 
-  - I found during the coding of this project lots of issues for operationality of each picture and  how to make functions from javascript responding to the media that I used.. Now I am happy how everything's looking.
+  - I found during the coding of this project lots of issues for operationality of each picture and  how to make functions from javascript responding to the media that I used. Now I am happy how everything's looking.
   
   - All the pictures used in this <i>TAXISA2B QUIZ</i> are captured using the basic screenshot while I used <b><i>Google Map View</i></b> 
 
@@ -116,7 +117,7 @@ This TAXI QUIZ is built just for amusement and for check with our clients if the
 
   ![W3C CSS]()
 
-  - JavaScript
+- JavaScript
   - I could found minor errors for forgeting to call some of the functions or mistyping <b>"; - colons"</b> [(JSHint) tool](https://jshint.com/)
 
   - After careful look I fixed almost all of them, one function <i><b>clickIt()</b></i> is not used/called because that's make my quiz running badly and I don't know how to call silent.
@@ -124,7 +125,7 @@ This TAXI QUIZ is built just for amusement and for check with our clients if the
 
 ### <i>Unfixed Bugs</i>
 
-- My code using <i>Developer Tool</i> not presenting any error, but after all the function are called and last question is answered and Quiz ending I can see showing the following: <i><b> Uncaught TypeError: Cannot read properties of undefined (reading 'image') </b></i>
+- My code using <i>Developer Tool</i> not presenting any error, but after all the function are called and last question is answered and Quiz ending I can see the following: <i><b> Uncaught TypeError: Cannot read properties of undefined (reading 'image') </b></i>
  Some of the notions probably will become easier in the next chapters.
   - After careful checking on internet I could see very experienced developers with same error as well.
  - My Quiz developed with help from the course offered by <b>Code Institute</b> not presenting any other error and game area running smoothly I believe.
