@@ -1,108 +1,186 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![TaxisA2B](/assets/images/taxisa2b.jpg)
 
-Welcome BGDragos,
+# TaxisA2B | Transportation
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![FavIcon](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/favIconT.png?raw=true)
+- Our logo is clearly for anyone who searching for taxi service, doesn't matter how many tabs are opened in any browser our favicon it's still lighting.
+- For this favicon we used our logo and mixed with some research on [W3Schools](https://www.w3schools.com/) I made TAXISA2B looking great.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+Established in 2018 by me owner and registered person at CRO / 654230, person who developed this small Quiz just for fun, purpose of this game is to involve our clients in exploring much better the trip.
+I, owner of TaxisA2B shared accuarte pictures snipped from <b>Google Maps</b>.
 
-## Gitpod Reminders
+![Responsice Mockup](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/mokup.png?raw=true)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## TAXISA2B HOME PAGE 
 
-`python3 -m http.server`
+This TAXI QUIZ is built just for amusement and for check with our clients if they paid attention to our driver, along the tour.
 
-A blue button should appear to click: _Make Public_,
+### <ins>TaxisA2B Header Includes </ins>
 
-Another blue button should appear to click: _Open Browser_.
+- __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - From Left > Right is the title <h1 id="taxi" >TaxisA2B Quiz <i class="fa-sharp fa-solid fa-taxi"></i></h1>  where any user can refresh the game, to try beating his score.
 
-A blue button should appear to click: _Make Public_,
+  - Top > Left Corner of the page is name of registered company TAXISA2B that showing a small icon snipped from [FontAwesome](https://fontawesome.com/icons)
 
-Another blue button should appear to click: _Open Browser_.
+![Nav Bar]
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### <ins>Presentation of TaxisA2B</ins>
+#### <ins>CHECK YOUR TOUR TRIP</ins>
 
-To log into the Heroku toolbelt CLI:
+  - This area is GAME AREA that including some of the pictures with 4 options to answer, those questions are couple of most important attraction in <b>Dublin</b>.
+ 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Taxi Presentation](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/taxiGoal.png?raw=true)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
 
-## Release History
+### <ins>Google map address of TaxisA2B</ins>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+  - This map shows the location of TaxisA2B, 
+  - This map was taken from [Google-Map-Generator](https://google-map-generator.com/) 
+  - This map was modified using CSS style.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+  ![Map](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/googleTaxiMap.png?raw=true)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+   
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+### <ins>Footer</ins>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+  - The footer section includes links to the relevant social media sites for TaxisA2B. The links will open to a new tab to allow easy navigation for the user.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+  - Footer contain large view of links and all the links used for this section are the real one.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - Footer is exactly the same in any page that you navigate.
+  
+![Footer](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/footerT.png?raw=true)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Home page was teste in LightHouse
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+  - This page was tested in LightHouse before uploading all the elements. 
+  - All the errors occurred during the tests has been resolved using Developer Tools offered by Google.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![LightHouse](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/indexLighthouse.png?raw=true)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## TAXISA2B BOOKING PAGE
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### <ins>Booking TAXISA2B</ins>
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - Booking selection including preferences as:
+    - Type of service,
+    - Time, 
+    - Number of passengers,
+    - Number of luggages
+    - After filling the form each client is contacted by TaxisA2B for confirmig day and price.
+  - Any passenger included in any of those selection, can easily see it and get in touch whit TaxisA2B
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Booking](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/bookingTable.png?raw=true)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Booking page was teste in LightHouse
 
-------
+  - This page was tested in LightHouse before uploading all the elements. 
+  - All the errors occurred during the tests has been resolved using Developer Tools offered by Google.
 
-## FAQ about the uptime script
+![LightHouse](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/bookingLighthouse.png?raw=true)
 
-**Why have you added this script?**
+## TAXISA2B ABOUT US PAGE 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### <ins>About Us</ins>
 
-**How will this affect me?**
+- This section explain the way how we operate, different way of communication.
+- Our program from Monday to Friday and a nice (hover) to see clearly selection.
+- A short explanation why everyone can't book for some certain reason.
+- Depende the screen used to see the page, client can have a look inside of the car through small picture provided.
+- Why our job is so serios and what clients cand expect when they book through the website.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- For checking each option I used "ul" list and using check box snipped from [FontAwesome](https://fontawesome.com/icons)
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Picture-Inside](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/aboutT.png?raw=true)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### ABOUT US page was teste in LightHouse
 
-**So….?**
+  - This page was tested in LightHouse before uploading all the elements. 
+  - All the errors occurred during the tests has been resolved using Developer Tools offered by Google.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![LightHouse](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/aboutLightHouse.png?raw=true)
 
-**Can I opt out?**
+## Features Left to Implement
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+- Testimony for our clients.
+- Review and Rating.
+- Option in Booking page to choose favorit driver.
+- Music that client will like to hear during the trip.
+ 
+## Credits
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- I started this project in 22/09/2022 it's hard to know exect time until I finish because I started from scratch, I checked "LOVE RUNNING" and "Coders Coffeehouse" presented by our teachers/mentors.
+Today 29/09/2022 I writing this <i>README.md</i> and I am proud with my work.
 
-**Anything more?**
+### Content
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+- I am 100% sure that my work is not accurate but I checked watching again videos presented by mentors and I am going to dig deep to understand more.
+- I used copy-paste during the project just for snipping some helpful content mentioned below:
 
----
+    - [FontAwesome](https://fontawesome.com/icons)
+    - [Google-Map-Generator](https://google-map-generator.com/)
+    - [Google Fonts](https://fonts.google.com/)
+    - [Am-I-Responsive](https://ui.dev/amiresponsive)
+ 
+ - I've looked after to understand much better the way how code is working using the link below:
+ 
+    - [W3Schools](https://www.w3schools.com/)
 
-Happy coding!
+  - I got all the majorities of ideas from [Code Institute](https://codeinstitute.net/) but I applied much more modifications and different meaning.
+
+### Media
+
+  - I found during the coding of this project lots of issues for view in different screen sizes. Now I am happy how everything's looking.
+  
+  - All the pictures used in this <i>website</i> are under my ownership.
+
+  - Template for this <i>README.md</i> is [Code Institute](https://codeinstitute.net/) property, I TAXISA2B, I am using only for presentation and I changed the content only for learning purpose.
+  - Text was written by me, person who developed this website no copy-paste taken from different sources.
+
+### <i> Validator Testing</i>
+
+- HTML
+  - I could found minor errors for mistyping or adding to many open tags or forgetting to close tags [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbgdragos.github.io%2Ftaxisa2b%2Fabout.html)
+
+  - After careful look I fixed all of them and now performances are after 90%.
+
+  ![W3C HTML](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/w3chtml.png?raw=true)
+
+- CSS
+  - I could found minor errors for mistyping or adding to many open tags or forgetting to close tags [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbgdragos.github.io%2Ftaxisa2b%2Fabout.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  - After careful look I fixed all of them and now the CSS file is not presenting any error.
+
+  ![W3C CSS](https://github.com/BGDragos/milestone-project-1/blob/main/assets/images/w3ccss.png?raw=true)
+
+### <i>Unfixed Bugs</i>
+
+- Couple of issues for smaller screen size, I fixed big majority, Google DevTools asked for some <i>json</i> files and that's new for me.
+ Some of the notions probably will become easier in the next chapters.
+
+## Testing
+
+- Using the Lighthouse tests I could see lots of issues for viewing pictures in different resolution
+
+- I used <b>DevTools</b> offered by <b>Google</b> I applied all the changes and I wrote everything in <b>Gitpod</b> where is an internal <b>Visual Studio Code</b>
+
+- For applying all the changes in <b>Gitpod</b> and check how website responding, I used the server mentioned by [Code Institute](https://codeinstitute.net/) in online learning process.
+
+## Deployment
+
+- After finishing my project I followed cople of easy stepts:
+  - I added any page or modified page to git (<b>git add .</b>)
+  - I committed any Update followed by relevant information (<b>git commit -m "...relevant message..."</b>)
+  - I pushed all the work to <i>GitHub</i> using (<b>git push</b>)
+  - After we see our site available in <i>GitHub Website</i>
+       - We are looking for our repositories
+       - We go in last pushed project
+       - Selecting <i>Settings > Pages > Source > Build and deployment</i>
+       - From selected <i>Build and deployment > Deploy from a branch</i> 
+       - Under selection <i>Deploy from a branch</i> select from the box <i>main</i> or depending any profile, I have listed only <i>main</i>
+       - After selection <i>main</i> + <i>/root</i> + <i>save</i>
+       - We're waiting few minutes to create the website page and after proceed to submit our the project.

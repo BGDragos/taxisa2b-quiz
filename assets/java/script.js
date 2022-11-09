@@ -81,25 +81,25 @@ let road = 0;
     city.location.forEach((option) => {
         bookDublin(option);
     });
+    
   }
 
   whichImg();
-
+ 
     // Function for change the color after good/wrong answers 
 
     let gameArea = document.getElementById("check-dublin");
 
     function correct(){
         gameArea.style.backgroundColor = "rgba(96, 255, 199, 1)";
-        alert("That's RIGHT!")
+        alert("That's RIGHT!");
       }
     
     function wrong(){
         gameArea.style.backgroundColor = "rgba(255, 166, 164, 1)";
-        alert("That's WRONG!")
-    
+        alert("That's WRONG!");
       }
-
+   
       // Function for increment good/wrong answer after you click it
 
       function addGood() {
@@ -113,17 +113,17 @@ let road = 0;
     
         let yourScor = parseInt(document.getElementById("un-marked").innerText);
         document.getElementById("un-marked").innerText = ++yourScor;
-           
+      
     }
-
+  
     // Function to call each function and validate each option from buttons
 
     function clickIt(option) {
       let city = locationKnow[indice];
       let goodAnswer = city.name === option;
       if (goodAnswer) {
-        ++indice;
-       ++road;
+        indice++;
+       road++;
           correct();
           addGood();
           whichImg();
@@ -131,4 +131,4 @@ let road = 0;
           wrong();
           addWrong();
       }
-  }
+    }
