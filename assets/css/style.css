@@ -218,37 +218,35 @@ footer h3 {
     #check-dublin {
        display: flex;
        background-color: white;
-       height: 50vh;
-       width: 50vw;
+       height: auto;
+       width: auto;
        margin: auto;
        margin-top: 60px;
        margin-bottom: 50px;
        border-radius: 10px;
-       padding: 60px;
+       padding: 40px;
    }
    
    .name{
-       width: 50%;
+       right: 60px;
        align-items: center;
        display: grid;
-       float: left;
    }
    
    .city{
-       width: 60%;
-       max-height: 100vh;
+       width: 70%
    }
    
    .guess-option {
        background-color: #00B8E6;
        color: white;
        border: double;
-       padding: 5px;
+       padding: 8px;
        font-size: 20px;
        display: block;
        margin: 20px;
        margin-bottom: 5px;
-       min-width: 200px;
+       min-width: 120px;
        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
        cursor: pointer;
    }
