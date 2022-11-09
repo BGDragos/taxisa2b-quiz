@@ -2,7 +2,7 @@
 
 # TaxisA2B Quiz
 
-![FavIcon]()
+![FavIcon](/assets/images/fav.png)
 - Our logo is clearly for anyone who searching for taxi service, doesn't matter how many tabs are opened in any browser our favicon it's still lighting.
 - For this favicon we used our logo and mixed with some research on [W3Schools](https://www.w3schools.com/), I made <b>TAXISA2B QUIZ</b> looking great.
 
@@ -23,7 +23,7 @@ This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check wi
 
   - Top > Left Corner of the page is name of registered company TAXISA2B that showing a small icon snipped from [FontAwesome](https://fontawesome.com/icons)
 
-![Nav Bar]
+![Nav Bar](assets/images/TaxisA2BQuiz.png)
 
 ### <ins>Presentation of TaxisA2B Quiz</ins>
 
@@ -36,7 +36,7 @@ This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check wi
   - After each answer user can se also see popping up an alert notifying RIGHT or WRONG.
  
 
-![Taxi Presentation]
+![Taxi Presentation](assets/images/game.png)
 
 
 ### <ins>Footer</ins>
@@ -47,7 +47,7 @@ This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check wi
 
   - Footer is exactly the same in any TAXISA2B page offered by me.
   
-![Footer]()
+![Footer](assets/images/footer.png)
 
 ### This Quizz page was tested in LightHouse
 
@@ -126,8 +126,9 @@ This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check wi
 ### <i>Unfixed Bugs</i>
 
 - My code using <i>Developer Tool</i> not presenting any error, but after all the function are called and last question is answered and Quiz ending I can see the following: <i><b> Uncaught TypeError: Cannot read properties of undefined (reading 'image') </b></i>
- Some of the notions probably will become easier in the next chapters.
+ / Some of the notions probably will become easier until the end of the course because <b>Python</b> is quite similar.
   - After careful checking on internet I could see very experienced developers with same error as well.
+  - That's why I feel confident that's not major.
  - My Quiz developed with help from the course offered by <b>Code Institute</b> not presenting any other error and game area running smoothly I believe.
 
 ## Testing
