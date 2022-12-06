@@ -23,7 +23,7 @@ This <u><i><b>TAXI QUIZ</b></i></u> is built just for amusement and for check wi
 
   - Top > Left Corner of the page is name of registered company TAXISA2B that showing a small icon snipped from [FontAwesome](https://fontawesome.com/icons)
 
-![Nav Bar](assets/images/TaxisA2BQuiz.png)
+![Nav Bar](assets/images/taxisa2bquiz.png)
 
 ### <ins>Presentation of TaxisA2B Quiz</ins>
 
