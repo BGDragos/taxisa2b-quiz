@@ -64,6 +64,11 @@ h2 {
 
 }
 
+img{
+    height:500px;
+    width: 500px;
+}
+
 .name{
     width: 50%;
     align-items: center;
@@ -255,3 +260,44 @@ footer h3 {
        cursor: pointer;
    }
    }
+
+   @media only screen and (min-width: 320px) {
+
+    #check-dublin {
+        display: flex;
+        background-color: white;
+        height: auto;
+        width: auto;
+        margin: auto;
+        margin-top: 60px;
+        margin-bottom: 50px;
+        border-radius: 10px;
+        padding: 40px;
+    }
+    
+    .name{
+        right: 60px;
+        align-items: center;
+        display: grid;
+    }
+    
+    .city{
+        width: 70%
+    }
+    
+    .guess-option {
+        background-color: #00B8E6;
+        color: white;
+        border: double;
+        padding: 8px;
+        font-size: 20px;
+        display: block;
+        margin: 20px;
+        margin-bottom: 5px;
+        min-width: 120px;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3);
+        cursor: pointer;
+    }
+    
+
+}
