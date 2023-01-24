@@ -43,7 +43,7 @@ let locationKnow = [
   },
   {
       name: "Jameson Distillery",
-      image: "assets/images/Jameson.jpg",
+      image: "assets/images/jameson.jpg",
       location: ["Kilmainham Gaol", "Jameson Distillery", "Dublin Castle", "St. Patrick`s Cathedral"],
     },
   {
@@ -68,6 +68,34 @@ let indice = 0;
 let road = 0;
 
   function whichImg() {
+    if (locationKnow.length == indice)   
+    {
+       let isReset = confirm('Quiz finished, you scored ' + document.getElementById("marked").innerText+' out of ' + locationKnow.length +' questions.\n Do you want to try again?'); 
+        console.log(isReset);
+        if(isReset)
+        {
+            indice = 0;
+            road = 0;
+            document.getElementById("marked").innerText = 0;
+            document.getElementById("un-marked").innerText = 0;
+            /*let elemthankyou = document.getElementById("thankyou");
+            elemthankyou.style.display = "none"; 
+            let elemtour = document.getElementById("tour");
+            elemtour.style.display = "flex";
+            let results = document.getElementById("results");
+            results.style.display = "flex"; */    
+            //location.reload();
+        }
+        else
+        {            
+            let elemthankyou = document.getElementById("thankyou"); 
+            elemthankyou.style.display = "flex";  
+            let elemtour = document.getElementById("tour");
+            elemtour.style.display = "none";   
+            let results = document.getElementById("results");
+            results.style.display = "none";            
+        }
+    }
     let city = locationKnow[indice];
     let image = document.getElementById("dublin-image-center");
     image.setAttribute('src', city.image);
@@ -84,6 +112,11 @@ let road = 0;
     
   }
 
+    function restart()
+    {
+        location.reload();
+    }
+
   whichImg();
  
     // Function for change the color after good/wrong answers 
@@ -92,12 +125,16 @@ let road = 0;
 
     function correct(){
         gameArea.style.backgroundColor = "rgba(96, 255, 199, 1)";
+        //setTimeout(function() {alert("That's RIGHT!");}, 1);
         alert("That's RIGHT!");
+        gameArea.style.backgroundColor = "rgba(255, 255, 255, 1)";
       }
     
     function wrong(){
         gameArea.style.backgroundColor = "rgba(255, 166, 164, 1)";
+        //setTimeout(function() {alert("That's WRONG!");}, 1);
         alert("That's WRONG!");
+        gameArea.style.backgroundColor = "rgba(255, 255, 255, 1)";
       }
    
       // Function for increment good/wrong answer after you click it
@@ -122,13 +159,16 @@ let road = 0;
       let city = locationKnow[indice];
       let goodAnswer = city.name === option;
       if (goodAnswer) {
-        indice++;
-       road++;
+          indice++;
+          road++;
           correct();
           addGood();
           whichImg();
       } else {
+          indice++;
+          road++;          
           wrong();
           addWrong();
+          whichImg();
       }
     }
